@@ -3,7 +3,7 @@ version: "3.9"
 services:
   modbus-garagedoor-webhook:
     build: .
-    container_name: modbus-webhook
+    container_name: modbus-garagedoor-webhook
     restart: unless-stopped
     ports:
       - "5000:5000"
