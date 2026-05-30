@@ -9,3 +9,9 @@ services:
       - "5001:5001"
     environment:
       FLASK_ENV: production
+    networks:
+      - proxy-net
+
+networks:
+  proxy-net:
+    external: true
