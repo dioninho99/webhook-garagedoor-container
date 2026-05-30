@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  modbus-webhook:
+  modbus-garagedoor-webhook:
     build: .
     container_name: modbus-webhook
     restart: unless-stopped
