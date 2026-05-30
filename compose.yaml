@@ -6,6 +6,6 @@ services:
     container_name: modbus-garagedoor-webhook
     restart: unless-stopped
     ports:
-      - "5000:5000"
+      - "5001:5001"
     environment:
       FLASK_ENV: production
